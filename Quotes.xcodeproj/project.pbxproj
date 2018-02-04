@@ -60,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				47683A11202723AA00EADF27 /* Quotes */,
+				47683A32202726FA00EADF27 /* Frameworks */,
 				47683A26202723AA00EADF27 /* QuotesTests */,
 				47683A10202723AA00EADF27 /* Products */,
 			);
@@ -94,6 +95,13 @@
 				47683A29202723AA00EADF27 /* Info.plist */,
 			);
 			path = QuotesTests;
+			sourceTree = "<group>";
+		};
+		47683A32202726FA00EADF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
