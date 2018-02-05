@@ -7,19 +7,20 @@
 //
 
 import UIKit
+import Swinject
+import SwinjectStoryboard
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        let container = Container()
+//        let sb = SwinjectStoryboard.create(
+//            name: "Animals", bundle: nil, container: container)
+//        let controller = sb.instantiateViewController(withIdentifier: "Animal")
+//            as! AnimalViewController
+//        print(controller.animal! is Cat) // prints "true"
+//        print(controller.animal!.name) // prints "Mimi"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

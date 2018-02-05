@@ -13,6 +13,20 @@
 		47683A1A202723AA00EADF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47683A19202723AA00EADF27 /* Assets.xcassets */; };
 		47683A1D202723AA00EADF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47683A1B202723AA00EADF27 /* LaunchScreen.storyboard */; };
 		47683A28202723AA00EADF27 /* QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A27202723AA00EADF27 /* QuotesTests.swift */; };
+		47683A342027286300EADF27 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47683A332027286200EADF27 /* Swinject.framework */; };
+		47683A37202742D800EADF27 /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47683A36202742D800EADF27 /* SwinjectStoryboard.framework */; };
+		47683A3B2027526100EADF27 /* QuotesTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A3A2027526100EADF27 /* QuotesTransport.swift */; };
+		47683A3D2027527000EADF27 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A3C2027527000EADF27 /* QuotesService.swift */; };
+		47683A412027528500EADF27 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A402027528500EADF27 /* Quote.swift */; };
+		47683A44202755B300EADF27 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A43202755B300EADF27 /* Commons.swift */; };
+		47683A46202755F900EADF27 /* RoundableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A45202755F900EADF27 /* RoundableView.swift */; };
+		47683A482027563800EADF27 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A472027563800EADF27 /* CardView.swift */; };
+		47683A4A2027565600EADF27 /* RoundableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A492027565600EADF27 /* RoundableImageView.swift */; };
+		47683A4C2027567500EADF27 /* LikeAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A4B2027567500EADF27 /* LikeAnimations.swift */; };
+		47683A4F2027846B00EADF27 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A4E2027846B00EADF27 /* BaseOperation.swift */; };
+		47683A512027884500EADF27 /* BaseTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A502027884500EADF27 /* BaseTransport.swift */; };
+		47683A532027885200EADF27 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A522027885200EADF27 /* Parser.swift */; };
+		47683A5520278B4B00EADF27 /* DefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47683A5420278B4B00EADF27 /* DefaultService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,20 @@
 		47683A23202723AA00EADF27 /* QuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47683A27202723AA00EADF27 /* QuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTests.swift; sourceTree = "<group>"; };
 		47683A29202723AA00EADF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47683A332027286200EADF27 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = SOURCE_ROOT; };
+		47683A36202742D800EADF27 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = SOURCE_ROOT; };
+		47683A3A2027526100EADF27 /* QuotesTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesTransport.swift; sourceTree = "<group>"; };
+		47683A3C2027527000EADF27 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
+		47683A402027528500EADF27 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		47683A43202755B300EADF27 /* Commons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		47683A45202755F900EADF27 /* RoundableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundableView.swift; sourceTree = "<group>"; };
+		47683A472027563800EADF27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		47683A492027565600EADF27 /* RoundableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundableImageView.swift; sourceTree = "<group>"; };
+		47683A4B2027567500EADF27 /* LikeAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAnimations.swift; sourceTree = "<group>"; };
+		47683A4E2027846B00EADF27 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
+		47683A502027884500EADF27 /* BaseTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTransport.swift; sourceTree = "<group>"; };
+		47683A522027885200EADF27 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		47683A5420278B4B00EADF27 /* DefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47683A37202742D800EADF27 /* SwinjectStoryboard.framework in Frameworks */,
+				47683A342027286300EADF27 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +108,15 @@
 		47683A11202723AA00EADF27 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				47683A42202755A100EADF27 /* Utils */,
 				47683A12202723AA00EADF27 /* AppDelegate.swift */,
 				47683A14202723AA00EADF27 /* ViewController.swift */,
+				47683A4D2027727E00EADF27 /* QuotesList */,
 				47683A16202723AA00EADF27 /* Main.storyboard */,
 				47683A19202723AA00EADF27 /* Assets.xcassets */,
 				47683A1B202723AA00EADF27 /* LaunchScreen.storyboard */,
 				47683A1E202723AA00EADF27 /* Info.plist */,
+				47683A382027522E00EADF27 /* Services */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -100,8 +133,51 @@
 		47683A32202726FA00EADF27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47683A36202742D800EADF27 /* SwinjectStoryboard.framework */,
+				47683A332027286200EADF27 /* Swinject.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		47683A382027522E00EADF27 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				47683A502027884500EADF27 /* BaseTransport.swift */,
+				47683A522027885200EADF27 /* Parser.swift */,
+				47683A5420278B4B00EADF27 /* DefaultService.swift */,
+				47683A392027524100EADF27 /* QuotesService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		47683A392027524100EADF27 /* QuotesService */ = {
+			isa = PBXGroup;
+			children = (
+				47683A3A2027526100EADF27 /* QuotesTransport.swift */,
+				47683A3C2027527000EADF27 /* QuotesService.swift */,
+				47683A402027528500EADF27 /* Quote.swift */,
+			);
+			path = QuotesService;
+			sourceTree = "<group>";
+		};
+		47683A42202755A100EADF27 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				47683A43202755B300EADF27 /* Commons.swift */,
+				47683A45202755F900EADF27 /* RoundableView.swift */,
+				47683A492027565600EADF27 /* RoundableImageView.swift */,
+				47683A472027563800EADF27 /* CardView.swift */,
+				47683A4B2027567500EADF27 /* LikeAnimations.swift */,
+				47683A4E2027846B00EADF27 /* BaseOperation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		47683A4D2027727E00EADF27 /* QuotesList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QuotesList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +190,7 @@
 				47683A0B202723AA00EADF27 /* Sources */,
 				47683A0C202723AA00EADF27 /* Frameworks */,
 				47683A0D202723AA00EADF27 /* Resources */,
+				47683A352027286D00EADF27 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -202,12 +279,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47683A352027286D00EADF27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47683A0B202723AA00EADF27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47683A4C2027567500EADF27 /* LikeAnimations.swift in Sources */,
+				47683A44202755B300EADF27 /* Commons.swift in Sources */,
+				47683A482027563800EADF27 /* CardView.swift in Sources */,
+				47683A3D2027527000EADF27 /* QuotesService.swift in Sources */,
 				47683A15202723AA00EADF27 /* ViewController.swift in Sources */,
+				47683A3B2027526100EADF27 /* QuotesTransport.swift in Sources */,
+				47683A532027885200EADF27 /* Parser.swift in Sources */,
+				47683A5520278B4B00EADF27 /* DefaultService.swift in Sources */,
+				47683A4F2027846B00EADF27 /* BaseOperation.swift in Sources */,
+				47683A512027884500EADF27 /* BaseTransport.swift in Sources */,
+				47683A46202755F900EADF27 /* RoundableView.swift in Sources */,
+				47683A4A2027565600EADF27 /* RoundableImageView.swift in Sources */,
+				47683A412027528500EADF27 /* Quote.swift in Sources */,
 				47683A13202723AA00EADF27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +470,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHMTBABACN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xavipedrals.Quotes;
@@ -378,6 +489,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHMTBABACN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xavipedrals.Quotes;
